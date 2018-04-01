@@ -1,0 +1,13 @@
+Goal: Return the name of an employee and the name of their boss.
+Use column aliases to make the columns employee_name and boss_name.
+
+Note: We obtain different result if on the last line of the query we 
+do r1.id = r2.boss_id. However, for this lesson on the website,
+the result would be incorrect.
+
+SQL query:
+
+SELECT r1.name AS employee_name, r2.name AS boss_name 
+FROM employees AS r1 
+INNER JOIN employees AS r2 
+ON r1.boss_id = r2.id;
