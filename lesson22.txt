@@ -1,5 +1,7 @@
 Lesson 22
 
+Goal: use two joins to pair each character name with the actor who plays them. 
+
 There are 5 tables: character, tv_show, character_tv_show, actor, and character_actor
 
 SQL query:
