@@ -1,0 +1,7 @@
+Goal: Sorts the friends_of_pickles by height_cm in descending order
+
+The table contains columns name, gender, species, and height_cm.
+
+SQL query:
+
+select * from friends_of_pickles order by height_cm desc;
