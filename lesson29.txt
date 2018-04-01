@@ -1,0 +1,13 @@
+Goal: Return the results with a column named sound that returns "talk" for humans, "bark" for dogs, and "meow" for cats.
+
+Note: Since we're selecting all columns, the reuslt will be the original table
+plus an additional column "sound".
+
+SQL query:
+
+select *, 
+case when species = 'human' then 'talk'
+when species  = 'dog' then 'bark'
+else 'meow'
+end as sound
+from friends_of_pickles;
