@@ -1,4 +1,4 @@
-Goal: Return a list of characters and TV shows that are not named "Willow Rosenberg" and not in the show "How I Met Your Mother"?
+Goal: Return a list of characters and TV shows that are not named "Willow Rosenberg" and not in the show "How I Met Your Mother"
 
 SQL query:
 
