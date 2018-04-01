@@ -1,0 +1,12 @@
+Lesson 22
+
+There are 5 tables: character, tv_show, character_tv_show, actor, and character_actor
+
+SQL query:
+
+select character.name, actor.name
+from character
+inner join character_actor
+on character.id = character_actor.character_id
+inner join actor
+on character_actor.actor_id = actor.id;
