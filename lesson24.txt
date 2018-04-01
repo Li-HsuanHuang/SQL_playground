@@ -1,0 +1,10 @@
+Goal: Use left joins to match character names with the actors that play them.
+
+SQL query:
+
+SELECT character.name, actor.name
+FROM character 
+LEFT JOIN character_actor
+ON character.id = character_actor.character_id
+LEFT JOIN actor
+ON character_actor.actor_id = actor.id;
