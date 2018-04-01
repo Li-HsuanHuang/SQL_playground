@@ -1,0 +1,7 @@
+Goal: Return title containing the word "Robot" followed by a year between 2000 and 2099. 
+
+The table consists 8 entries with 7 titles containing the word Robot.
+
+SQL query:
+
+select * from robots where name like "%Robot 20%";
