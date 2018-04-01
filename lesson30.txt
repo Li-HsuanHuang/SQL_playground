@@ -1,0 +1,8 @@
+Goal: Return all of the robots that are located in NY.
+
+Note: Though we do -2 in subtrac, it's not sufficient to do Like 'N_' due to the fact that
+NJ robots would be selected too if they exist.
+
+SQL query:
+
+select * from robots where substr(location,-2) like 'NY';
